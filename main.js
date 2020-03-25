@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 });
 
 //listen on the app
-app.listen(3000, () => {
+app.listen(5000, () => {
     return console.log('Server is up on 3000')
 });
  // get authentictation for the channel;
