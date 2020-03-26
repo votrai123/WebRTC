@@ -1,7 +1,7 @@
 {
   "name": "WebRTC",
   "version": "1.0.0",
-  "description": "",
+  "description": "WebRTC (Web Real-Time Communications) is a technology which enables Web applications and sites to capture and optionally stream audio and/or video media, and to exchange arbitrary data between browsers without requiring an intermediary. The set of standards that comprises WebRTC makes it possible to share data and perform teleconferencing peer-to-peer, without requiring that the user install plug-ins or any other third-party software.",
   "main": "main.js",
   "dependencies": {
     "body-parser": "^1.19.0",
