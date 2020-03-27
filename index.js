@@ -76,7 +76,7 @@ const pusher = new Pusher({
     }
   },
   disableStats: true,
-  forceTLS: true
+  forceTLS: false
 });
 
 app.get("/", (req, res) => {
