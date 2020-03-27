@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/votrai123/WebRTC.git"
   },
-  "keywords": [],
+  "keywords": [
+    "webRTc",
+    "Pusher",
+    "Videocall"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,6 +24,7 @@
   },
   "homepage": "https://github.com/votrai123/WebRTC#readme",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "express": "^4.17.1",
     "pusher": "^3.0.0"
   }
