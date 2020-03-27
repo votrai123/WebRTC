@@ -25,7 +25,13 @@
     var pusher = new Pusher('e2584ae45ff7673a1b25', {
         cluster: 'ap1',
         encrypted: true,
-        authEndpoint: 'pusher/auth'
+        authEndpoint: 'pusher/auth',
+
+        auth: {
+            params: {
+                CSRFToken: 'csrf_token'
+            }
+        }
     });
     var usersOnline, id, users = [],
         sessionDesc,
