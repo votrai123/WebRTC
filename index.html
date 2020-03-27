@@ -222,8 +222,8 @@
                     localUserMedia = stream;
                     toggleEndCallButton();
                     if (window.URL) {
-                        // document.getElementById("selfview").srcObject = evt.stream;
-                        document.getElementById("selfview").srcObject = new MediaStream(stream);
+                        document.getElementById("selfview").srcObject = evt.stream;
+                        // document.getElementById("selfview").srcObject = new MediaStream(stream);
 
                     } else {
                         document.getElementById("selfview").src = stream;
