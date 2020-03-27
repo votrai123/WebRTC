@@ -87,7 +87,7 @@
         caller.onaddstream = function (evt) {
             console.log("onaddstream called");
             if (window.URL) {
-                document.getElementById("remoteview").srcObject = evt.stream;
+                document.getElementById("remoteview").srcObject = new MediaStream(evt.stream);
             } else {
                 document.getElementById("remoteview").src = evt.stream;
             }
