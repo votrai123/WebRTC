@@ -104,7 +104,7 @@ app.post("/pusher/auth", (req, res) => {
 //   res.send(auth);
 // });
 
-app.set("port", process.env.PORT || 4004);
+app.set("port", process.env.PORT || 1300);
 const server = app.listen(app.get("port"), () => {
   console.log(`Express running on port ${server.address().port}`);
 });
